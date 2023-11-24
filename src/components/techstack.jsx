@@ -28,7 +28,7 @@ const Techstack = () => {
       <div className="text-center text-4xl mt-10">
         My <span className="text-lime"> Tech Stack </span>
       </div>
-      <div className='flex flex-wrap gap-y-10 justify-between p-20'>
+      <div className='flex flex-wrap gap-y-10 sm:justify-between justify-center p-20'>
       {stack.map(item => {
         return(
         <div key={item.name} className='w-52 h-16 p-4 bg-background2 flex justify-around items-center border border-white border-opacity-30   '>

@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
       <div className="rounded-xl relative w-[19.5rem] h-[12rem] bg-content">
         <img src={url} className="absolute bottom-0 w-[85%] rounded-md left-[7.5%]" />
       </div>
-      <div className="w-[19.5rem] text-[1.2rem] mt-2">
+      <div className="w-[19.5rem] text-[1.2rem] mt-3">
         <Reveal>
         <div className="flex justify-between  items-center">
           <p className="font-neutrafaceBold">{title}</p>
