@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectCard from "./projectCard";
 import { Reveal } from "../utils/Reveal";
-import notes from '../assets/images/notes.png'
-import movie from '../assets/images/movie_app.png'
-import projects_img from '../assets/images/projects_app.png'
+import notes from '/assets/images/notes.png'
+import movie from '/assets/images/movie_app.png'
+import projects_img from '/assets/images/projects_app.png'
 
 const projects = [
   {

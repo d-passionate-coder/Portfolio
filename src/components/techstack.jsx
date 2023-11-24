@@ -4,19 +4,19 @@ import React from 'react'
 const stack = [
     {
         name : 'React',
-        src : '/src/assets/svg/react.svg'
+        src : '/assets/svg/react.svg'
     },
     {
         name : 'Node Js',
-        src : '/src/assets/svg/nodejs.svg'
+        src : '/assets/svg/nodejs.svg'
     },
     {
         name : 'Tailwind',
-        src : '/src/assets/svg/tailwindcss.svg'
+        src : '/assets/svg/tailwindcss.svg'
     },
     {
         name : 'Javascript',
-        src : '/src/assets/svg/js.svg'
+        src : '/assets/svg/js.svg'
     }
 ];
 

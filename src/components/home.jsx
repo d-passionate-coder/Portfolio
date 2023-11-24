@@ -1,7 +1,7 @@
 import React from "react";
-import insta from "../assets/svg/insta.svg";
-import email from "../assets/svg/email.svg";
-import hero from "../assets/images/hero2.png";
+import insta from "/assets/svg/insta.svg";
+import email from "/assets/svg/email.svg";
+import hero from "/assets/images/hero2.png";
 import { Reveal } from "../utils/Reveal";
 
 const Home = () => {
