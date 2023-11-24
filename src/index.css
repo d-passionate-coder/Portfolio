@@ -1,0 +1,64 @@
+/* @import url('https://fonts.cdnfonts.com/css/neutraface-text'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "neutraface";
+    src: url("assets/fonts/NeutrafaceTextBook.otf");
+  }
+
+  @font-face {
+    font-family: "neutrafaceBold";
+    src: url("assets/fonts/NeutrafaceTextBold.otf");
+  }
+
+html{
+    margin: 0;
+    color-scheme: dark;
+    scroll-behavior: smooth;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.progress {
+  transform: rotate(-90deg);
+}
+
+.cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: rgba(203, 203, 203, 0.495);
+}
+
+
+@media (max-width: 640px) {
+   .details{
+    border: none;
+   }
+ }
+
+ @media (max-width: 885px) { 
+  .details:nth-child(2n){
+    border: none;
+  }
+ }
+
+ @media (min-width: 1024px) { 
+   .details:nth-child(3n){
+    border : none;
+   }
+ }
+
+nav {
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+
