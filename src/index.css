@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: "neutraface";
-    src: url("assets/fonts/NeutrafaceTextBook.otf");
+    src: url("/assets/fonts/NeutrafaceTextBook.otf");
   }
 
   @font-face {
     font-family: "neutrafaceBold";
-    src: url("assets/fonts/NeutrafaceTextBold.otf");
+    src: url("/assets/fonts/NeutrafaceTextBold.otf");
   }
 
 html{
