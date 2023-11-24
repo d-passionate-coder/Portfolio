@@ -1,6 +1,6 @@
 import React from "react";
 import git from "../assets/svg/git.svg";
-import web from "../assets/svg/web.svg";
+import web from "../assets/svg/Web.svg";
 import { Reveal } from "../utils/Reveal";
 
 const ProjectCard = ({ project }) => {
